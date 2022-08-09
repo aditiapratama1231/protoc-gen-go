@@ -53,7 +53,7 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/salestock/ssource/shared-libs/go/protoc-gen-go/generator"
+	"github.com/swiftsolutions-eng/ssource/shared-libs/go/protoc-gen-go/generator"
 )
 
 func main() {
