@@ -1,0 +1,12 @@
+package: github.com/salestock/ssource/shared-libs/go/protobuf/protoc-gen-go
+ignore:
+  - github.com/salestock/ssource
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - protoc-gen-go/plugin
+- package: github.com/salestock/ssource
+  subpackages:
+  - shared-libs/go/protobuf/proto
